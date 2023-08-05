@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <div className="mt-8">
             <div className="relative">
-                <img className="object-cover w-full h-[90vh]" src={banner} alt="" />
+                <img className="object-cover md:w-full h-[90vh]" src={banner} alt="" />
             </div>
             <div className="absolute top-[106px] left-0 bg-[#03203c5e] w-full -bottom-3">
                 <h1 className="text-center mt-48 text-xl text-white">--- We Clean whole lot more! ---</h1>
