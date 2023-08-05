@@ -27,7 +27,7 @@ const NavBar = () => {
                     <li>
                         <NavLink>Contact Us</NavLink>
                     </li>
-                    <button>Request A Quote</button>
+                    <button className="bg-slate-400 p-3 rounded-md">Request A Quote</button>
                 </ul>
             </div>
            
