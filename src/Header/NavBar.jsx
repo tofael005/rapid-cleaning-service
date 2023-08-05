@@ -27,7 +27,7 @@ const NavBar = () => {
                     <li>
                         <NavLink>Contact Us</NavLink>
                     </li>
-                    <button className="bg-slate-400 p-3 rounded-md">Request A Quote</button>
+                    <button className="bg-[#23C4ED] text-white hover:bg-[#4adbffbe] duration-300 p-3 rounded-md">Request A Quote</button>
                 </ul>
             </div>
            
