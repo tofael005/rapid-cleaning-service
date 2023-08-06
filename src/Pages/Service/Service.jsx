@@ -18,6 +18,7 @@ const Service = () => {
                     works.map((singleWork, index) =>  <Work key={index} singleData={singleWork} />)
                 }
             </div>
+            <button className="bg-[#23C4ED] block mx-auto mt-10 px-6 py-3 rounded-md text-xl text-white font-bold">See More</button>
         </div>
     );
 };
