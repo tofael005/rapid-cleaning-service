@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from "../assets/logo.png"
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { AiOutlineClose } from 'react-icons/ai';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
@@ -10,7 +10,7 @@ const NavBar = () => {
         <div className="max-w-[1240px] mx-auto px-3 mt-4">
             <div className="flex justify-between items-center">
                 <div>
-                    <img className="w-[150px]" src={logo} alt="" />
+                   <Link to="/"> <img className="w-[150px]" src={logo} alt="" /></Link>
                 </div>
 
 
@@ -34,9 +34,9 @@ const NavBar = () => {
                         <NavLink to="/about" className="font-bold">About Us</NavLink>
                     </li>
                     <li>
-                        <NavLink className="font-bold">Contact Us</NavLink>
+                        <NavLink to="/contact" className="font-bold">Contact Us</NavLink>
                     </li>
-                    <button className="bg-[#f3b160] text-white text-xl font-bold hover:bg-[#d69c54] duration-300 p-3 rounded">Request A Quote</button>
+                    <Link to="/booked"><button className="bg-[#f3b160] text-white text-xl font-bold hover:bg-[#d69c54] duration-300 p-3 rounded">Request A Quote</button></Link>
                 </ul>
             </div>
         </div>

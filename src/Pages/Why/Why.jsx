@@ -20,7 +20,7 @@ const Why = () => {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolorum iste neque beatae in tempore laboriosam minus nam. Ducimus inventore facere, consequuntur quis iste accusamus.</p>
                     </div>
                     <div className="w-full bg-[#f3b160] mt-6 md:p-7 p-4 font-extrabold">
-                        <p className="text-white md:text-3xl md:text-center text-center text-2xl">We Are ISO Certified Company</p>
+                        <p className="text-white md:text-2xl md:text-center text-center text-xl">We Are ISO Certified Company</p>
                     </div>
                 </div>
                     <img className="rounded-md" src={why} alt="" />
