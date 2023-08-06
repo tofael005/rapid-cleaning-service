@@ -1,16 +1,16 @@
 import React from 'react';
-import banner from "../assets/banner2.jpg"
+import banner from "../assets/banner2.webp"
 
 const Banner = () => {
     return (
         <div className="mt-8">
             <div className="relative">
-                <img className="object-cover md:w-full h-[90vh]" src={banner} alt="" />
+                <img className="object-cover md:w-full md:h-[90vh]" src={banner} alt="" />
             </div>
-            <div className="absolute top-[106px] left-0 bg-[#03203c5e] w-full -bottom-3">
-                <h1 className="text-center mt-48 text-xl text-white">--- We Clean whole lot more! ---</h1>
-                <p className="text-center text-6xl font-bold mt-10 text-white">Services In Your Town</p>
-                <button className="mt-20 px-8 py-5 rounded-md text-white bg-[#23C4ED] block mx-auto text-xl font-bold hover:bg-[#4adbffbe] duration-300">Book NOW!</button>
+            <div className="absolute md:top-[97px] left-0 bg-[#03203c77] md:w-full md:h-[90vh] w-full h-[188px]  bottom-0 top-[87px]">
+                <h1 className="text-center md:mt-48 md:text-xl mt-10  text-white">--- We Clean whole lot more! ---</h1>
+                <p className="text-center md:text-6xl text-3xl mb-4 font-bold md:mt-10 text-white">Services In Your Town</p>
+                <button className="md:mt-20 md:px-8 md:py-5 p-3 rounded-md text-white bg-[#23C4ED] block mx-auto md:text-xl font-bold hover:bg-[#4adbffbe] duration-300">Book NOW!</button>
             </div>
         </div>
     );
