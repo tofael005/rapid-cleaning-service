@@ -12,7 +12,7 @@ const Service = () => {
     return (
         <div className="max-w-[1240px] mx-auto md:mt-14 mt-10 mb-20">
             <h1 className="text-center md:text-xl font-semibold">--- What we are offering ---</h1>
-            <h1 className="text-center md:text-5xl text-3xl  mt-3 mb-10 md:font-bold font-extrabold">Our <span className="text-red-500">Rapid</span> Services</h1>
+            <h1 className="text-center md:text-4xl text-3xl  mt-3 mb-10 md:font-bold font-extrabold">Our <span className="text-red-500">Rapid</span> Services</h1>
             <div className="grid md:grid-cols-3 gap-4 mt-5 px-3">
                 {
                     works.map((singleWork, index) =>  <Work key={index} singleData={singleWork} />)

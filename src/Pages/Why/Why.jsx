@@ -3,7 +3,7 @@ import why from "../../assets/why.jpeg"
 
 const Why = () => {
     return (
-        <div className="max-w-[1240px] mx-auto mt-10 px-3">
+        <div className="max-w-[1240px] mx-auto mt-10 px-3 border-b pb-4">
             <h1 className="text-center font-semibold mb-2">--- REASONS TO CHOOSE US ---</h1>
             <h1 className="text-center text-4xl font-bold"><span className="text-4xl font-bold text-red-500">Why</span> Choose us?</h1>
             <div className="grid md:grid-cols-2 gap-4 mt-10">

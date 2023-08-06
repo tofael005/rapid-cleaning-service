@@ -28,15 +28,15 @@ const NavBar = () => {
                         <NavLink to="/service" className="font-bold">Service</NavLink>
                     </li>
                     <li>
-                        <NavLink className="font-bold">Blog</NavLink>
+                        <NavLink to="/blog" className="font-bold">Blog</NavLink>
                     </li>
                     <li>
-                        <NavLink className="font-bold">About Us</NavLink>
+                        <NavLink to="/about" className="font-bold">About Us</NavLink>
                     </li>
                     <li>
                         <NavLink className="font-bold">Contact Us</NavLink>
                     </li>
-                    <button className="bg-[#f3b160] text-white text-xl font-bold hover:bg-[#d69c54] duration-300 p-3 rounded-md">Request A Quote</button>
+                    <button className="bg-[#f3b160] text-white text-xl font-bold hover:bg-[#d69c54] duration-300 p-3 rounded">Request A Quote</button>
                 </ul>
             </div>
         </div>
