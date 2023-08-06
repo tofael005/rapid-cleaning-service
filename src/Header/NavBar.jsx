@@ -5,7 +5,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 const NavBar = () => {
-    const [toggle, setToggle] = useState([])
+    const [toggle, setToggle] = useState(false)
     return (
         <div className="max-w-[1240px] mx-auto px-3 mt-4">
             <div className="flex justify-between items-center">
@@ -25,7 +25,7 @@ const NavBar = () => {
                         <NavLink className="font-bold">Home</NavLink>
                     </li>
                     <li>
-                        <NavLink className="font-bold">Service</NavLink>
+                        <NavLink to="/service" className="font-bold">Service</NavLink>
                     </li>
                     <li>
                         <NavLink className="font-bold">Blog</NavLink>
@@ -36,10 +36,9 @@ const NavBar = () => {
                     <li>
                         <NavLink className="font-bold">Contact Us</NavLink>
                     </li>
-                    <button className="bg-[#23C4ED] text-white text-xl font-bold hover:bg-[#4adbffbe] duration-300 p-3 rounded-md">Request A Quote</button>
+                    <button className="bg-[#f3b160] text-white text-xl font-bold hover:bg-[#d69c54] duration-300 p-3 rounded-md">Request A Quote</button>
                 </ul>
             </div>
-           
         </div>
     );
 };

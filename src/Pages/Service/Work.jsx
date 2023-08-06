@@ -6,7 +6,7 @@ const Work = ({singleData}) => {
         <div>
             <div className="p-3 border rounded-md shadow-md">
                 <img className="w-full rounded-md h-[300px]" src={image} alt="" />
-                <h1 className="mt-6 mb-3 text-2xl font-bold text-[#23C4ED]">{title}</h1>
+                <h1 className="mt-6 mb-3 text-2xl font-bold">{title}</h1>
                 <p>{description}</p>
             </div>
         </div>
