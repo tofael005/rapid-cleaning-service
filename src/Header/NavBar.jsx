@@ -20,23 +20,23 @@ const NavBar = () => {
                     }
                 </span>
 
-                <ul  className={`flex items-center duration-300 flex-col py-5 md:p-0 text-white md:text-gray-900 bg-opacity-90 top-20 bg-black md:bg-transparent w-full text-center md:w-auto md:flex-row gap-3 absolute md:static z-50 ${toggle ? "left-0" : "-left-full"}`}>
+                <ul  className={`flex items-center duration-300 flex-col py-5 md:p-0 text-white md:text-gray-900 bg-opacity-90 top-20 bg-black md:bg-transparent w-full text-center md:w-auto md:flex-row gap-6 absolute md:static z-50 ${toggle ? "left-0" : "-left-full"}`}>
                     <li>
-                        <NavLink>Home</NavLink>
+                        <NavLink className="font-bold">Home</NavLink>
                     </li>
                     <li>
-                        <NavLink>Service</NavLink>
+                        <NavLink className="font-bold">Service</NavLink>
                     </li>
                     <li>
-                        <NavLink>Blog</NavLink>
+                        <NavLink className="font-bold">Blog</NavLink>
                     </li>
                     <li>
-                        <NavLink>About Us</NavLink>
+                        <NavLink className="font-bold">About Us</NavLink>
                     </li>
                     <li>
-                        <NavLink>Contact Us</NavLink>
+                        <NavLink className="font-bold">Contact Us</NavLink>
                     </li>
-                    <button className="bg-[#23C4ED] text-white hover:bg-[#4adbffbe] duration-300 p-3 rounded-md">Request A Quote</button>
+                    <button className="bg-[#23C4ED] text-white text-xl font-bold hover:bg-[#4adbffbe] duration-300 p-3 rounded-md">Request A Quote</button>
                 </ul>
             </div>
            
